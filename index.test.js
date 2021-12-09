@@ -6,4 +6,4 @@ test("Returns about-us for english language", () => {
 
 test("Returns about-us for portuguese language", () => {
     expect(getAboutUsLink("pt-BR")).toBe("/sobre-nos");
-});git add .
+});
