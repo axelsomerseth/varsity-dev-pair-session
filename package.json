@@ -1,0 +1,22 @@
+{
+  "name": "varsity-dev-pair-session",
+  "version": "1.0.0",
+  "description": "Pair session",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axelsomerseth/varsity-dev-pair-session.git"
+  },
+  "author": "Axel Somerseth Cordova",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/axelsomerseth/varsity-dev-pair-session/issues"
+  },
+  "homepage": "https://github.com/axelsomerseth/varsity-dev-pair-session#readme",
+  "devDependencies": {
+    "test": "^0.6.0"
+  }
+}
