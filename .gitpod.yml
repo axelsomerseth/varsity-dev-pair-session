@@ -3,4 +3,3 @@ tasks:
     command: npm run dev
 ports:
   - port: 3000
-    onOpen: open-preview
