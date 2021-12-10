@@ -1,14 +1,16 @@
-const englishCode = "en-US";
-const spanishCode = "es-ES";
+class Calculator {
+    sum(str) {
+        if (!str) {
+            return 0;
+        }
+        const isNumber = !isNaN(str);
+        if (isNumber) {
+            return parseInt(str);
+        }
 
-function getAboutUsLink(language) {
-    switch (language.toLowerCase()) {
-        case englishCode.toLowerCase():
-            return '/about-us';
-        case spanishCode.toLowerCase():
-            return '/acerca-de';
+        let arr = str.split(/,|\n/);
+        return arr.reduce((a, b) => parseInt(a) + parseInt(b));
     }
-    return '';
 }
 
-module.exports = getAboutUsLink;
+module.exports = Calculator;
